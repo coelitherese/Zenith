@@ -1,0 +1,327 @@
+body{
+    background-image: url(./Elements/Images/bodyBackgroundImage.png);
+}
+
+/* fonts */
+    @font-face {
+        font-family: sloopScript;
+        src: url(./Elements/Fonts/sloop/Sloop-ScriptThree.ttf);
+    }
+
+    @font-face {
+        font-family: stolenLoveBlack;
+        src: url(./Elements/Fonts/stolenLoveFont/Stolen\ Love\ \ Black.otf);
+    }
+
+    @font-face {
+        font-family: anonymousProBold;
+        src: url(./Elements/Fonts/Anonymous_Pro/AnonymousPro-Bold.ttf);
+    }
+
+    @font-face {
+        font-family: anonymousProRegular;
+        src: url(./Elements/Fonts/Anonymous_Pro/AnonymousPro-Regular.ttf);
+    }
+/* fonts */
+
+/* navigation start */
+    #navigationBar{
+        background-color: #6f9ebe;
+        font-family: stolenLoveBlack;
+        font-weight: bolder;
+        font-size: 100%;
+        text-decoration: none;
+        border-bottom: #e3e9dd;
+    }
+    
+    #navbarNavDropdown{
+        font-size: 120%;
+    }
+
+    #zenith{
+        font-family: stolenLoveBlack;
+        font-size: 200%;
+        font-weight: bolder;
+    }
+/* navigation end */
+
+/* home page start */
+    #homePage{
+        align-items: center;
+    }
+
+    #homePageInnerBox{
+        width: 100%;
+        background-color: #6f9ebe;
+    }
+
+    #homePageInnerBoxHeaderOne{
+        font-family: stolenLoveBlack;
+        font-size: 400%;
+        font-weight: bolder;
+        color: #e3e9dd;
+        align-items: center;
+    }
+
+    #homePageInnerBoxParagraphOne{
+        font-family: anonymousProRegular;
+        color: #e3e9dd;
+        font-size: larger;
+    }
+
+    #homePageInnerBoxButtons{
+        padding: 200%;
+    }
+/* home page end */
+
+/* about page start */
+    #aboutPage{
+        background-color: transparent;
+    }
+
+    #aboutPageInnerBox{
+        background-color:#F8F8F8;
+    }
+
+    #aboutPageInnerBoxParagraphOne{
+        font-family: anonymousProRegular;
+        font-size: 120%;
+    }
+
+    #aboutPageInnerBoxSpanOne{
+        font-weight: bolder;
+    }
+
+    #aboutPageInnerBoxHeaderOne{
+        font-family: stolenLoveBlack;
+    }
+
+    #aboutPageInnerBoxSpanTwo{
+        font-family: stolenLoveBlack;
+    }
+/* about page end */
+
+/* tools page start */
+    #toolsPage{
+        background-color: transparent;
+    }
+
+    #toolsPageInnerBox{
+        background-color: #6f9ebe;
+    }
+
+    #editingSoftwaresContainer{
+        align-items: center;
+    }
+
+    #editingSoftwares{
+        height: 50%;
+    }
+
+    #toolsPageInnerBoxHeaderOne{
+        font-family: stolenLoveBlack;
+        color: #e3e9dd;
+    }
+
+    #toolsPageInnerBoxParagraphOne{
+        font-family: anonymousProRegular;
+        color: #e3e9dd;
+        font-size: 120%;
+    }
+/* tools page end */
+
+/* projects page start */
+    #projectsPage{
+        background-color: transparent;
+        font-family: stolenLoveBlack;
+    }
+    
+    #projectsPageInnerBox{
+        background-color: transparent;
+        width: 100%;
+    }
+
+    .project-item .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+
+    .card-body{
+        background-color: #6f9ebe;
+    }
+
+   #projectsPageInnerBoxCardHeaderFour{
+        color: #e3e9dd;
+   }
+
+   #desumiMagahara{
+    background-color: black;
+   }
+
+   #anaxJersey{
+    background-color: #FF4F0F;
+   }
+
+   #cleoJersey{
+    background-color: #131D4F;
+   }
+
+   #wyrmJersey{
+    background-color: #A86523;
+   }
+
+   #balagbaganStreamLayout{
+    background-color: #9B177E;
+   }
+
+   #balagbaganMainPoster{
+    background-color: #093FB4;
+   }
+
+   #balagbaganDraftPick{
+    background-color: #E14434;
+   }
+
+   #drgMembersPoster{
+    background-color: #212121;
+   }
+
+   #drgLogos{
+    background-color: black;
+   }
+
+   #cleoBattleOfTheChampions{
+    background-color: #131D4F;
+   }
+
+/* contact page start */
+    #contactPage{
+        background-color: transparent;
+    }
+
+    #contactPageInnerBox{
+        background-color: #6f9ebe;
+        width: 105%;
+    }
+
+    #contactPageInnerBoxHeaderOne{
+        font-family: stolenLoveBlack;
+        color: #e3e9dd;
+    }
+
+    #contactPageInnerBoxParagraphOne{
+        font-family: anonymousProRegular;
+        color: #e3e9dd;
+        font-size: larger;
+    }
+
+/* contact page end */
+
+/* button start */
+    .frame {
+        bottom: 130px;
+        left: 50%;
+        z-index: 1000;
+        width: 100%;
+        margin: 15px;
+         text-align: center;
+        align-items: center;
+    }
+    button {
+        margin: 20px;
+    }
+    .custom-btn {
+        width: 200px;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: stolenLoveBlack;
+        font-weight: 500;
+        font-size: larger;
+        background: transparent;
+        cursor: pointer;
+         transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+         box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+    }
+    .btn-8 {
+        background-color: #f0ecfc;
+        background-image: linear-gradient(315deg, #f0ecfc 0%, #6ab5e1 74%);
+        line-height: 42px;
+        padding: 0;
+        border: none;
+    }
+    .btn-8 span {
+         position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .btn-8:before,
+    .btn-8:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: #e3e9dd;
+        box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5), 
+            -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+            inset -4px -4px 6px 0 rgba(255,255,255,.5),
+            inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+        transition: all 0.3s ease;
+    }
+    .btn-8:before{
+        height: 0%;
+        width: 2px;
+    }
+    .btn-8:after {
+        width: 0%;
+        height: 2px;
+    }
+    .btn-8:hover:before {
+        height: 100%;
+    }
+    .btn-8:hover:after {
+            width: 100%;
+        }
+        .btn-8:hover{
+        background: transparent;
+    }
+    .btn-8 span:hover{
+        color: #e3e9dd;
+        font-weight: bolder;
+    }
+    .btn-8 span:before,
+    .btn-8 span:after {
+         position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        background: #e3e9dd;
+        /*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                        -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+                inset -4px -4px 6px 0 rgba(255,255,255,.5),
+                inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
+        transition: all 0.3s ease;
+    }
+    .btn-8 span:before {
+        width: 2px;
+        height: 0%;
+    }
+    .btn-8 span:after {
+    height: 2px;
+        width: 0%;
+     }
+    .btn-8 span:hover:before {
+        height: 100%;
+    }
+    .btn-8 span:hover:after {
+        width: 100%;
+    }
+/* button end */
